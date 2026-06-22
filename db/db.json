@@ -1,18 +1,221 @@
 {
-  "usuarios": [
+  "versoes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Firefox 57 — Quantum",
+      "versao": "57.0",
+      "descricaoCurta": "Motor Quantum: 2x mais rápido e 30% menos memória que o Chrome.",
+      "descricaoCompleta": "O Firefox Quantum foi uma reescrita quase completa do motor do navegador. Com a engine Stylo (CSS em paralelo) e o motor de layout Gecko reescrito em Rust, o browser ficou 2x mais rápido que a versão anterior e consumia 30% menos memória que o Chrome. Foi o marco que colocou o Firefox de volta na disputa com o Chrome.",
+      "imagem": "img/2013.png",
+      "categoria": "Performance",
+      "lancamento": "2017-11-14",
+      "destaque": true,
+      "cor": "#ff7139",
+      "tags": ["quantum", "rust", "performance", "gecko", "stylo"],
+      "extensoes": [
+        { "nome": "uBlock Origin", "icone": "bi-shield-fill-check", "cor": "#e44d26", "descricao": "Bloqueador de anúncios leve e open-source." },
+        { "nome": "Privacy Badger", "icone": "bi-bug-fill", "cor": "#9059ff", "descricao": "Aprende automaticamente quais rastreadores bloquear." },
+        { "nome": "Tree Style Tab", "icone": "bi-diagram-3-fill", "cor": "#00b3f4", "descricao": "Abas verticais em árvore — ideal para quem abre muitas abas." },
+        { "nome": "Dark Reader", "icone": "bi-moon-stars-fill", "cor": "#8f8f9d", "descricao": "Modo escuro em qualquer site com controle de brilho." }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Firefox 70",
+      "versao": "70.0",
+      "descricaoCurta": "Lockwise e Facebook Container: privacidade como padrão.",
+      "descricaoCompleta": "A versão 70 apostou pesado em privacidade. O painel de proteção mostra em tempo real quantos rastreadores foram bloqueados. O Facebook Container virou extensão oficial, impedindo o Facebook de rastrear você fora do site. O Lockwise gerencia senhas com criptografia forte e sincronização via Firefox Sync.",
+      "imagem": "img/2019.png",
+      "categoria": "Privacidade",
+      "lancamento": "2019-10-22",
+      "destaque": true,
+      "cor": "#9059ff",
+      "tags": ["lockwise", "privacidade", "facebook", "rastreadores", "sync"],
+      "extensoes": [
+        { "nome": "Facebook Container", "icone": "bi-box-fill", "cor": "#1877f2", "descricao": "Isola o Facebook para impedir rastreamento externo." },
+        { "nome": "Firefox Lockwise", "icone": "bi-key-fill", "cor": "#ff7139", "descricao": "Gerenciador de senhas nativo com criptografia ponta-a-ponta." },
+        { "nome": "Disconnect", "icone": "bi-wifi-off", "cor": "#e44d26", "descricao": "Bloqueia rastreadores e acelera o carregamento." },
+        { "nome": "HTTPS Everywhere", "icone": "bi-lock-fill", "cor": "#28a745", "descricao": "Força conexões seguras HTTPS em todos os sites." }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Firefox 89 — Proton",
+      "versao": "89.0",
+      "descricaoCurta": "Redesign completo com abas flutuantes e interface modernizada.",
+      "descricaoCompleta": "O Proton foi o maior redesign visual desde o Firefox 29. A barra de abas ficou flutuante, menus foram simplificados e o design ganhou cantos arredondados e mais espaço em branco. A Density adaptativa ajusta automaticamente o tamanho da interface conforme o tamanho da janela. Foi polêmico mas trouxe o Firefox para o design moderno.",
+      "imagem": "img/2021.png",
+      "categoria": "Design",
+      "lancamento": "2021-06-01",
+      "destaque": true,
+      "cor": "#9059ff",
+      "tags": ["proton", "design", "abas flutuantes", "interface", "modernização"],
+      "extensoes": [
+        { "nome": "Tabliss", "icone": "bi-grid-fill", "cor": "#00b3f4", "descricao": "Nova guia com wallpapers e widgets de produtividade." },
+        { "nome": "Multi-Account Containers", "icone": "bi-collection-fill", "cor": "#9059ff", "descricao": "Abas em containers isolados com cookies separados." },
+        { "nome": "Vimium-FF", "icone": "bi-keyboard-fill", "cor": "#28a745", "descricao": "Navegue com o teclado no estilo do editor Vim." },
+        { "nome": "OneTab", "icone": "bi-list-ul", "cor": "#ff7139", "descricao": "Converte abas abertas em lista — economiza 95% de memória." }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Firefox 100",
+      "versao": "100.0",
+      "descricaoCurta": "Versão centenária com legendas ao vivo e suporte a HDR.",
+      "descricaoCompleta": "Firefox 100 foi uma versão especial de marco. Introduziu legendas ao vivo geradas por IA em vídeos no YouTube e Netflix, suporte completo a HDR no macOS Monterey, melhorias no Picture-in-Picture e desempenho muito melhorado no Windows 11 com suporte a DirectComposition. Também corrigiu um bug histórico de sites que checavam se o User-Agent tinha dois dígitos.",
+      "imagem": "img/2021.png",
+      "categoria": "Multimídia",
+      "lancamento": "2022-05-03",
+      "destaque": false,
+      "cor": "#ff7139",
+      "tags": ["hdr", "legendas", "picture-in-picture", "av1", "windows11"],
+      "extensoes": [
+        { "nome": "Picture-in-Picture", "icone": "bi-pip-fill", "cor": "#ff0000", "descricao": "Vídeos em janelinha flutuante enquanto usa outras abas." },
+        { "nome": "Enhancer for YouTube", "icone": "bi-youtube", "cor": "#ff0000", "descricao": "Controles extras de velocidade e qualidade para o YouTube." },
+        { "nome": "Return YouTube Dislike", "icone": "bi-hand-thumbs-down-fill", "cor": "#8f8f9d", "descricao": "Restaura o contador de dislikes nos vídeos." },
+        { "nome": "SponsorBlock", "icone": "bi-skip-forward-fill", "cor": "#00d924", "descricao": "Pula segmentos patrocinados automaticamente." }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Firefox 115 — ESR",
+      "versao": "115.0 ESR",
+      "descricaoCurta": "Suporte estendido para empresas com estabilidade máxima.",
+      "descricaoCompleta": "O Firefox ESR (Extended Support Release) é voltado para ambientes corporativos e usuários que preferem estabilidade a novidades. A versão 115 trouxe suporte melhorado a políticas de TI via arquivos JSON, integração com Active Directory e o novo importador de dados que suporta Chrome, Edge, IE e Opera de uma vez. Recebe atualizações de segurança por 1 ano.",
+      "imagem": "img/mozilla.png",
+      "categoria": "Corporativo",
+      "lancamento": "2023-07-04",
+      "destaque": false,
+      "cor": "#9059ff",
+      "tags": ["esr", "empresas", "estabilidade", "active directory", "lts"],
+      "extensoes": [
+        { "nome": "NoScript", "icone": "bi-slash-circle-fill", "cor": "#e44d26", "descricao": "Bloqueia JavaScript por padrão — máxima segurança." },
+        { "nome": "ClearURLs", "icone": "bi-link-45deg", "cor": "#00b3f4", "descricao": "Remove rastreadores das URLs antes de acessar os sites." },
+        { "nome": "Bitwarden", "icone": "bi-safe-fill", "cor": "#175ddc", "descricao": "Gerenciador de senhas open-source com cofre criptografado." },
+        { "nome": "Cookie AutoDelete", "icone": "bi-trash3-fill", "cor": "#ff7139", "descricao": "Deleta cookies de abas fechadas automaticamente." }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Firefox 121",
+      "versao": "121.0",
+      "descricaoCurta": "AV1 acelerado por hardware e modo leitura com voz.",
+      "descricaoCompleta": "Firefox 121 foi uma versão importante para quem assiste vídeos. Passou a usar aceleração de hardware para decodificar AV1, o codec mais eficiente da atualidade — isso reduziu o consumo de CPU em até 40% em vídeos HD. O modo leitura ganhou opção de texto em voz alta com velocidade ajustável. Também melhorou o suporte a WebGL para jogos no navegador.",
+      "imagem": "img/2019.png",
+      "categoria": "Multimídia",
+      "lancamento": "2023-12-19",
+      "destaque": false,
+      "cor": "#00b3f4",
+      "tags": ["av1", "leitura", "voz", "webgl", "hardware"],
+      "extensoes": [
+        { "nome": "Video Speed Controller", "icone": "bi-speedometer2", "cor": "#ff7139", "descricao": "Controla velocidade de qualquer vídeo com atalhos de teclado." },
+        { "nome": "Read Aloud", "icone": "bi-megaphone-fill", "cor": "#9059ff", "descricao": "Lê qualquer texto em voz alta com vozes naturais." },
+        { "nome": "Mercury Reader", "icone": "bi-file-text-fill", "cor": "#00b3f4", "descricao": "Remove distrações e mostra só o conteúdo principal." },
+        { "nome": "Gesturefy", "icone": "bi-cursor-fill", "cor": "#28a745", "descricao": "Navegue por gestos do mouse com ações configuráveis." }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Firefox 1.0",
+      "versao": "1.0",
+      "descricaoCurta": "O início de tudo — o navegador que desafiou o IE em 2004.",
+      "descricaoCompleta": "Lançado em novembro de 2004, o Firefox 1.0 foi o primeiro release oficial do navegador da Mozilla Foundation. Em apenas um ano, acumulou mais de 100 milhões de downloads e mostrou ao mundo que era possível ter um navegador seguro, rápido e customizável como alternativa ao Internet Explorer da Microsoft, que dominava o mercado.",
+      "imagem": "img/2013.png",
+      "categoria": "Histórico",
+      "lancamento": "2004-11-09",
+      "destaque": false,
+      "cor": "#ff7139",
+      "tags": ["historico", "2004", "origem", "mozilla", "ie"],
+      "extensoes": [
+        { "nome": "Adblock Plus", "icone": "bi-shield-fill-x", "cor": "#e44d26", "descricao": "O bloqueador de anúncios original, pioneiro no Firefox." },
+        { "nome": "Firebug", "icone": "bi-bug", "cor": "#ff7139", "descricao": "Ferramenta de desenvolvimento web pioneira no navegador." },
+        { "nome": "DownThemAll", "icone": "bi-download", "cor": "#00b3f4", "descricao": "Gerenciador de downloads integrado ao Firefox." },
+        { "nome": "Greasemonkey", "icone": "bi-code-slash", "cor": "#9059ff", "descricao": "Executa scripts personalizados em qualquer site." }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Firefox 29",
+      "versao": "29.0",
+      "descricaoCurta": "Interface Australis: visual moderno com abas arredondadas.",
+      "descricaoCompleta": "O Firefox 29 trouxe o redesign Australis, com abas arredondadas, menu de hambúrguer no canto superior direito e visual mais limpo. Foi a interface mais duradoura do Firefox, usada por milhões de usuários por anos. Também foi a versão que tornou o Firefox Sync muito mais fácil de configurar, dispensando a necessidade de uma chave de sincronização.",
+      "imagem": "img/2013.png",
+      "categoria": "Design",
+      "lancamento": "2014-04-29",
+      "destaque": false,
+      "cor": "#ff7139",
+      "tags": ["australis", "design", "sync", "hamburger menu", "abas"],
+      "extensoes": [
+        { "nome": "Firefox Sync", "icone": "bi-arrow-repeat", "cor": "#9059ff", "descricao": "Sincroniza abas, senhas e favoritos entre dispositivos." },
+        { "nome": "Pocket", "icone": "bi-bookmark-fill", "cor": "#ef4056", "descricao": "Salva artigos e páginas para ler depois, offline." },
+        { "nome": "Tab Mix Plus", "icone": "bi-layout-tabs", "cor": "#00b3f4", "descricao": "Controle total sobre o comportamento das abas." },
+        { "nome": "Session Manager", "icone": "bi-clock-history", "cor": "#ff7139", "descricao": "Salva e restaura sessões de navegação completas." }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Firefox 52",
+      "versao": "52.0",
+      "descricaoCurta": "Última versão com suporte a NPAPI — fim dos plugins legados.",
+      "descricaoCompleta": "Firefox 52 marcou o fim de uma era: foi a última versão com suporte completo ao sistema de plugins NPAPI (usado pelo Flash, Java e Silverlight). A partir da versão 53, apenas o Flash seria suportado via uma arquitetura separada. Também introduziu melhorias significativas no modo de leitura e suporte a WebAssembly, o futuro da web de alta performance.",
+      "imagem": "img/2013.png",
+      "categoria": "Histórico",
+      "lancamento": "2017-03-07",
+      "destaque": false,
+      "cor": "#8f8f9d",
+      "tags": ["npapi", "flash", "webassembly", "plugins", "legado"],
+      "extensoes": [
+        { "nome": "Flash Player", "icone": "bi-lightning-fill", "cor": "#e44d26", "descricao": "Suporte a conteúdo Flash — ainda funcionava nesta versão." },
+        { "nome": "Java Console", "icone": "bi-cup-hot-fill", "cor": "#5382a1", "descricao": "Plugin Java integrado ao navegador, hoje descontinuado." },
+        { "nome": "WebAssembly Runner", "icone": "bi-cpu-fill", "cor": "#9059ff", "descricao": "Executa código compilado em alta performance no browser." },
+        { "nome": "Reader View Plus", "icone": "bi-book-fill", "cor": "#00b3f4", "descricao": "Modo leitura aprimorado com fontes e temas personalizáveis." }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Firefox 78 — ESR",
+      "versao": "78.0 ESR",
+      "descricaoCurta": "Última versão compatível com macOS 10.9 a 10.11 e Windows XP.",
+      "descricaoCompleta": "Firefox 78 ESR foi a última versão do Firefox compatível com versões antigas do macOS (10.9 Mavericks até 10.11 El Capitan) e marcou o fim do suporte a Windows XP e Vista. Para muitos usuários corporativos e de hardware legado, foi a última atualização possível. Trouxe melhorias no Firefox Lockwise e suporte aprimorado a WebRTC para videoconferências.",
+      "imagem": "img/2019.png",
+      "categoria": "Corporativo",
+      "lancamento": "2020-06-02",
+      "destaque": false,
+      "cor": "#9059ff",
+      "tags": ["esr", "legado", "macos", "windows", "webrtc"],
+      "extensoes": [
+        { "nome": "Zoom Redirector", "icone": "bi-camera-video-fill", "cor": "#2d8cff", "descricao": "Redireciona links do Zoom para abrir no app nativo." },
+        { "nome": "uMatrix", "icone": "bi-grid-3x3-gap-fill", "cor": "#e44d26", "descricao": "Controle granular sobre requisições de rede por domínio." },
+        { "nome": "Firefox Lockwise", "icone": "bi-key-fill", "cor": "#ff7139", "descricao": "Gerenciamento de senhas com sincronização segura." },
+        { "nome": "WebRTC Control", "icone": "bi-broadcast", "cor": "#28a745", "descricao": "Controla e desativa o WebRTC para proteger o IP real." }
+      ]
     }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Performance", "descricao": "Versões focadas em velocidade e uso eficiente de recursos.", "cor": "#ff7139" },
+    { "id": 2, "nome": "Privacidade", "descricao": "Versões com foco em proteção de dados e bloqueio de rastreadores.", "cor": "#9059ff" },
+    { "id": 3, "nome": "Design", "descricao": "Versões com redesigns visuais significativos de interface.", "cor": "#00b3f4" },
+    { "id": 4, "nome": "Multimídia", "descricao": "Versões com melhorias para vídeo, áudio e codecs.", "cor": "#e44d26" },
+    { "id": 5, "nome": "Corporativo", "descricao": "Versões ESR voltadas para ambientes empresariais.", "cor": "#175ddc" },
+    { "id": 6, "nome": "Histórico", "descricao": "Versões que marcaram a história do Firefox e da web.", "cor": "#8f8f9d" }
+  ],
+  "comentarios": [
+    { "id": 1, "versaoId": 1, "autor": "Carlos M.", "texto": "O Quantum foi a melhor coisa que aconteceu com o Firefox. Voltei a usar depois de anos no Chrome!", "data": "2024-01-10" },
+    { "id": 2, "versaoId": 1, "autor": "Ana P.", "texto": "A diferença de velocidade é perceptível logo de cara. Sensacional.", "data": "2024-02-03" },
+    { "id": 3, "versaoId": 2, "autor": "Lucas R.", "texto": "O Facebook Container salvou minha privacidade. Uso até hoje.", "data": "2024-01-20" },
+    { "id": 4, "versaoId": 3, "autor": "Maria F.", "texto": "O design Proton foi polêmico mas eu amei. Muito mais limpo.", "data": "2024-03-05" },
+    { "id": 5, "versaoId": 7, "autor": "Roberto K.", "texto": "Tenho o setup original ainda instalado por nostalgia. Que épocaaa!", "data": "2024-01-15" }
+  ],
+  "avaliacoes": [
+    { "id": 1, "versaoId": 1, "nota": 5 },
+    { "id": 2, "versaoId": 2, "nota": 4 },
+    { "id": 3, "versaoId": 3, "nota": 4 },
+    { "id": 4, "versaoId": 4, "nota": 3 },
+    { "id": 5, "versaoId": 5, "nota": 4 },
+    { "id": 6, "versaoId": 6, "nota": 4 },
+    { "id": 7, "versaoId": 7, "nota": 5 },
+    { "id": 8, "versaoId": 8, "nota": 3 },
+    { "id": 9, "versaoId": 9, "nota": 3 },
+    { "id": 10, "versaoId": 10, "nota": 4 }
   ]
 }
