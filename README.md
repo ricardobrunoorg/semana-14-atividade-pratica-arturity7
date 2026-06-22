@@ -106,10 +106,10 @@ http://localhost:3000
 ---
 
 **Antes** — estado inicial com os dados do db.json
-![Gráficos antes](/public/img/apresentacao.png.png)
+![Gráficos antes](/public/img/apresentacao.png)
 
 **Depois** — após cadastrar uma nova versão pelo formulário
-![Gráficos depois](/public/img/apresentacao2.png.png)
+![Gráficos depois](/public/img/apresentacao2.png)
 
 ---
 
