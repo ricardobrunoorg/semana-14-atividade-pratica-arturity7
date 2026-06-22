@@ -105,13 +105,11 @@ http://localhost:3000
 
 ---
 
-## Imagem da Home
+**Antes** — estado inicial com os dados do db.json
+![Gráficos antes](/public/img/apresentacao.png.png)
 
-> Adicione aqui um print da página principal mostrando os cards.
-
-## Imagem da página de detalhes
-
-> Adicione aqui um print da página de detalhes de uma versão.
+**Depois** — após cadastrar uma nova versão pelo formulário
+![Gráficos depois](/public/img/apresentacao2.png.png)
 
 ---
 
